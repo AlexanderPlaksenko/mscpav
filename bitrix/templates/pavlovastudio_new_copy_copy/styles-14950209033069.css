@@ -1,0 +1,164 @@
+@media (max-width: 767px) {
+    .menu-top {
+        padding: 0;
+        -moz-border-radius: 0;
+        -webkit-border-radius: 0;
+        -o-border-radius: 0;
+        border-radius: 0;
+        position: absolute;
+        left: -100%;
+        background: #f8ebdb;
+        z-index: 11;
+        -webkit-transform: scale3d(1, 1, 1);
+        box-shadow: none;
+        border: none;
+        transition: all 0.40s ease;
+    }
+    .
+    .navbar-toggle {
+        position: absolute;
+        top: 10px;
+        right: 5px;
+        margin: 0;
+    }
+
+    .logo-wrapp, .header-contacts {
+        padding: 0;
+    }
+
+    .footer-contact {
+        padding-left: 46px;
+    }
+
+    .header-contacts .title {
+        margin-left: 40px;
+    }
+
+    .menu-top.collapse.in {
+        display: block;
+        width: 40%;
+        left: 0;
+        top: 0;
+        height: 100vh;
+    }
+
+    .menu-top.collapse {
+        display: inherit;
+        left: -100%;
+    }
+
+    body {
+        padding-top: 76px;
+    }
+
+    .header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 11;
+        -webkit-transform: scale3d(1, 1, 1);
+    }
+
+    .nav-top .container {
+        position: inherit;
+    }
+
+    .header-contacts {
+        margin-right: 60px;
+    }
+
+    .menu-top__wrapper {
+        min-height: 0 !important;
+    }
+}
+
+@media (max-width: 508px) {
+    body {
+        padding-top: 128px;
+    }
+
+    .logo-wrapp {
+        display: block;
+    }
+
+    .logo-wrapp, .header-contacts {
+        float: none;
+    }
+
+    .header {
+        text-align: center;
+    }
+
+    .header-contacts {
+        margin-right: 0;
+    }
+}
+
+.masters-container .master-otziv {
+    display: none;
+}
+
+.masters-container.karina-zboeva .master-otziv.karina-zboeva {
+    display: block;
+}
+
+.masters-container.aleksandra-poyarkova .master-otziv.aleksandra-poyarkova {
+    display: block;
+}
+
+.masters-container.arina-zboeva .master-otziv.arina-zboeva {
+    display: block;
+}
+
+.masters-container.nadezhda-iyulskaya .master-otziv.nadezhda-iyulskaya {
+    display: block;
+}
+
+.masters-container.trisha-skarzgard .master-otziv.trisha-skarzgard {
+    display: block;
+}
+
+.masters-container.natalya-glumova .master-otziv.natalya-glumova {
+    display: block;
+}
+
+.masters-container.yuliya-dakalova .master-otziv.yuliya-dakalova {
+    display: block;
+}
+
+.masters-container.yuliya-stanko .master-otziv.yuliya-stanko {
+    display: block;
+}
+
+.masters-container.nadezhda-pavlyuchenko .master-otziv.nadezhda-pavlyuchenko {
+    display: block;
+}
+.masters-container.alina-novoselova .master-otziv.alina-novoselova {
+    display: block;
+}
+.masters-container.anastasiya-gorshkova .master-otziv.anastasiya-gorshkova {
+    display: block;
+}
+.masters-container.anastasiya-lebedeva .master-otziv.anastasiya-lebedeva {
+    display: block;
+}
+
+
+.masters-block .otziv-btn {
+    margin-left: 0;
+}
+
+.otziv-btn {
+    background-color: #f4f4f4;
+    border-radius: 4px;
+    color: #777;
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 10px;
+    padding: 5px 16px;
+    font-weight: 300;
+}
+
+.sep-mast {
+    margin: 30px 0;
+}
